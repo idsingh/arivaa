@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Template(data) {
-  console.log(data)
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
   return (
@@ -17,16 +16,3 @@ export default function Template(data) {
     </div>
   );
 }
-
-export const pageQuery = graphql`
-  query BlogPostByPath {
-    markdownRemark(frontmatter: { path: { eq: "/" } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-      }
-    }
-  }
-`;

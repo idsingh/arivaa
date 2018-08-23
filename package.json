@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "laxaar-products-docs",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Inderdeep Singh <inderdeep.singh@laxaar.com>",
   "dependencies": {
     "gatsby": "1.9.250",
     "gatsby-link": "^1.6.46",
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/idsingh/arivaa"
   }
 }

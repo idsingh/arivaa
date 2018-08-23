@@ -1,6 +1,6 @@
 import React from "react";
-import PostLink from '../components/post-link'
-import BlogTemplate from '../templates/blogTemplate'
+
+import PageTemplate from '../templates/pageTemplate'
 
 const IndexPage = ({
   data: {
@@ -8,11 +8,7 @@ const IndexPage = ({
     markdownRemark
   },
 }) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
-
-  return <div><BlogTemplate markdownRemark = {markdownRemark}/></div>;
+  return <div><PageTemplate markdownRemark = {markdownRemark}/></div>;
 };
 
 export default IndexPage;

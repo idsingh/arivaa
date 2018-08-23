@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Documentation',
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/markdown-files`,
+        path: `${__dirname}/documentation`,
         name: "markdown-pages",
       },
     },'gatsby-plugin-react-helmet',
