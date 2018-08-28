@@ -4,11 +4,16 @@
   "version": "1.0.0",
   "author": "Inderdeep Singh <inderdeep.singh@laxaar.com>",
   "dependencies": {
+    "antd": "^3.8.4",
+    "babel-plugin-import": "^1.8.0",
     "gatsby": "1.9.250",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-babel": "^1.0.0",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
+    "install": "^0.12.1",
+    "npm": "^6.4.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
