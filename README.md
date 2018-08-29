@@ -11,7 +11,7 @@ Kick off your project with this default boilerplate. This barebones starter ship
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://next.gatsbyjs.org/docs/gatsby-starters/)._
 
-## 🚀 Quick start
+## � Quick start
 
 1.  **Install the Gatsby CLI.**
 
@@ -48,7 +48,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     
     Open the the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
     
-## 🧐 What's inside?
+## � What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
@@ -93,7 +93,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
   
   13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
 
-## 🎓 Learning Gatsby
+## � Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://next.gatsbyjs.org/). Here are some places to start:
 
@@ -101,6 +101,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 -   **To dive straight into code samples head [to our documentation](https://next.gatsbyjs.org/docs/).** In particular, check out the “Guides”, API reference, and “Advanced Tutorials” sections in the sidebar.
 
-## 💫 Deploy
+## � Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)

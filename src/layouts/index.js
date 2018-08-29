@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './index.css'
-
+import { Button } from 'antd'
 const Layout = ({ children, data }) => {
     return (
         <div>
@@ -16,6 +16,7 @@ const Layout = ({ children, data }) => {
                 ]}
             />
             <Header siteTitle={data.site.siteMetadata.title} />
+            <Button type="primary">Testing</Button>
             <div
                 style={{
                     margin: '0 auto',

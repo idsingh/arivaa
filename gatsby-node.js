@@ -27,7 +27,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           }
         }
       }
-    }
+    } 
   `).then(result => {
       //console.log(result)
     if (result.errors) {
