@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-less`,
       options: {
         theme: {
-          'primary-color': '#BADA55'
+          'primary-color': '#58468c'
         }
       }
     },

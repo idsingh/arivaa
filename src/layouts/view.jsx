@@ -1,36 +1,70 @@
-import React from 'react';
-import './styles.less';
+import React from 'react'
+import './styles.less'
 import { Button } from 'antd'
-import Helmet from 'react-helmet'
-import Header from '../components/header'
+
+import { Layout, Menu, Breadcrumb, Icon } from 'antd'
+
+const {SubMenu} = Menu
+const {Header, Content, Sider} = Layout
 /**
  * Returns the JSX Markup for the view
  * @returns {XML}
  */
-var view = function(){
-	const {children,data} = this.props;
-	return (
-		<div>
-			<Helmet
-				title={data.site.siteMetadata.title}
-				meta={[
-                    { name: 'description', content: 'Sample' },
-                    { name: 'keywords', content: 'sample, something' },
-                ]}
-			/>
-			<Header siteTitle={data.site.siteMetadata.title} />
-			<Button type="primary">Testing</Button>
-			<div
-				style={{
-                    margin: '0 auto',
-                    maxWidth: 960,
-                    padding: '0px 1.0875rem 1.45rem',
-                    paddingTop: 0,
-                }}
-			>
-                {children()}
-			</div>
-		</div>
-	)
+var view = function () {
+    const {children, data} = this.props
+    return (
+        <div>
+            <Layout>
+                <Header className="header">
+                    <div className="logo"/>
+                    <Menu mode="horizontal" defaultSelectedKeys={['2']} style={{lineHeight: '64px'}}>
+                        <Menu.Item key="1">nav 1</Menu.Item>
+                        <Menu.Item key="2">nav 2</Menu.Item>
+                        <Menu.Item key="3">nav 3</Menu.Item>
+                    </Menu>
+                </Header>
+                <Layout>
+                    <Sider width={300} style={{background: '#fff'}}>
+                        <Menu
+                            mode="inline"
+                            defaultSelectedKeys={['1']}
+                            defaultOpenKeys={['sub1']}
+                            style={{height: '100%', borderRight: 0}}
+                        >
+                            <SubMenu key="sub1" title={<span><Icon type="user"/>subnav 1</span>}>
+                                <Menu.Item key="1">option1</Menu.Item>
+                                <Menu.Item key="2">option2</Menu.Item>
+                                <Menu.Item key="3">option3</Menu.Item>
+                                <Menu.Item key="4">option4</Menu.Item>
+                            </SubMenu>
+                            <SubMenu key="sub2" title={<span><Icon type="laptop"/>subnav 2</span>}>
+                                <Menu.Item key="5">option5</Menu.Item>
+                                <Menu.Item key="6">option6</Menu.Item>
+                                <Menu.Item key="7">option7</Menu.Item>
+                                <Menu.Item key="8">option8</Menu.Item>
+                            </SubMenu>
+                            <SubMenu key="sub3" title={<span><Icon type="notification"/>subnav 3</span>}>
+                                <Menu.Item key="9">option9</Menu.Item>
+                                <Menu.Item key="10">option10</Menu.Item>
+                                <Menu.Item key="11">option11</Menu.Item>
+                                <Menu.Item key="12">option12</Menu.Item>
+                            </SubMenu>
+                        </Menu>
+                    </Sider>
+                    <Layout style={{padding: '0 24px 24px'}}>
+                        <Breadcrumb style={{margin: '16px 0'}}>
+                            <Breadcrumb.Item>Home</Breadcrumb.Item>
+                            <Breadcrumb.Item>List</Breadcrumb.Item>
+                            <Breadcrumb.Item>App</Breadcrumb.Item>
+                        </Breadcrumb>
+                        <Content style={{background: '#fff', padding: 24, margin: 0, minHeight: 280}}>
+                            <p>{data.site.siteMetadata.title}</p>
+                            {children()}
+                        </Content>
+                    </Layout>
+                </Layout>
+            </Layout>
+        </div>
+    )
 }
-export default view;
+export default view
