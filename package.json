@@ -18,6 +18,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "start" : "cp -r documentation/assets public/ && npm run develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
