@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2841f9-fea4-41c7-806f-00c936ef9717" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sider/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sider/main.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sider/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sider/styles.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sider/view.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/icon-256.png" afterPath="$PROJECT_DIR$/documentation/assets/icon-256.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image (1).png" afterPath="$PROJECT_DIR$/documentation/assets/image (1).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image (2).png" afterPath="$PROJECT_DIR$/documentation/assets/image (2).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image (3).png" afterPath="$PROJECT_DIR$/documentation/assets/image (3).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image (4).png" afterPath="$PROJECT_DIR$/documentation/assets/image (4).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image (5).png" afterPath="$PROJECT_DIR$/documentation/assets/image (5).png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/image.png" afterPath="$PROJECT_DIR$/documentation/assets/image.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-01-at-9.30.48-am.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-01-at-9.30.48-am.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-01-at-9.39.51-am.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-01-at-9.39.51-am.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-22-at-7.18.21-pm.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-22-at-7.18.21-pm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-22-at-7.18.34-pm.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-22-at-7.18.34-pm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-22-at-7.18.44-pm.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-22-at-7.18.44-pm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/.gitbook/assets/screen-shot-2018-04-22-at-8.56.23-pm.png" afterPath="$PROJECT_DIR$/documentation/assets/screen-shot-2018-04-22-at-8.56.23-pm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gatsby-config.js" afterPath="$PROJECT_DIR$/gatsby-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/styles.less" afterPath="$PROJECT_DIR$/src/components/header/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/view.jsx" afterPath="$PROJECT_DIR$/src/components/header/view.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/styles.less" afterPath="$PROJECT_DIR$/src/layouts/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/view.jsx" afterPath="$PROJECT_DIR$/src/layouts/view.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,13 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layouts/view.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+                <marker date="1535611625000" expanded="true" signature="275:780" ph="{...}" />
+                <marker date="1535611625000" expanded="true" signature="338:772" ph="&lt;div/&gt;" />
+                <marker date="1535611625000" expanded="true" signature="356:757" ph="&lt;Layout/&gt;" />
+                <marker date="1535611625000" expanded="true" signature="407:735" ph="&lt;Layout/&gt;" />
+                <marker date="1535611625000" expanded="true" signature="465:709" ph="&lt;Layout/&gt;" />
+                <marker date="1535611625000" expanded="true" signature="498:679" ph="&lt;Content/&gt;" />
+                <marker date="1535611625000" expanded="true" signature="536:644" ph="&lt;div/&gt;" />
               </folding>
             </state>
           </provider>
@@ -100,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/layouts/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="725" column="29" lean-forward="false" selection-start-line="725" selection-start-column="29" selection-end-line="725" selection-end-column="29" />
+            <state relative-caret-position="983">
+              <caret line="544" column="16" lean-forward="true" selection-start-line="544" selection-start-column="16" selection-end-line="544" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -152,6 +135,7 @@
       <find>test.</find>
       <find>#001529</find>
       <find>.ant-layout-header</find>
+      <find>font-family</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -205,8 +189,8 @@
         <option value="$PROJECT_DIR$/src/components/header/styles.less" />
         <option value="$PROJECT_DIR$/src/components/sider/view.jsx" />
         <option value="$PROJECT_DIR$/src/components/sider/styles.less" />
-        <option value="$PROJECT_DIR$/src/layouts/styles.less" />
         <option value="$PROJECT_DIR$/src/layouts/view.jsx" />
+        <option value="$PROJECT_DIR$/src/layouts/styles.less" />
       </list>
     </option>
   </component>
@@ -416,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16990000" />
+    <option name="totallyTimeSpent" value="17229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -425,6 +409,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -433,12 +418,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5550181" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,18 +709,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="725" column="29" lean-forward="false" selection-start-line="725" selection-start-column="29" selection-end-line="725" selection-end-column="29" />
+        <state relative-caret-position="983">
+          <caret line="544" column="16" lean-forward="true" selection-start-line="544" selection-start-column="16" selection-end-line="544" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/view.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+            <marker date="1535611625000" expanded="true" signature="275:780" ph="{...}" />
+            <marker date="1535611625000" expanded="true" signature="338:772" ph="&lt;div/&gt;" />
+            <marker date="1535611625000" expanded="true" signature="356:757" ph="&lt;Layout/&gt;" />
+            <marker date="1535611625000" expanded="true" signature="407:735" ph="&lt;Layout/&gt;" />
+            <marker date="1535611625000" expanded="true" signature="465:709" ph="&lt;Layout/&gt;" />
+            <marker date="1535611625000" expanded="true" signature="498:679" ph="&lt;Content/&gt;" />
+            <marker date="1535611625000" expanded="true" signature="536:644" ph="&lt;div/&gt;" />
           </folding>
         </state>
       </provider>
