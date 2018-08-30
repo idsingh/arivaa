@@ -1,7 +1,8 @@
 ---
-title: "README"
-path: "/"
-date: "2018-24-08"
+title: README
+path: /
+date: '2018-24-08'
+published: true
 ---
 
 # Introduction
@@ -21,5 +22,15 @@ Arivaa is a series of projects meant to solve real-life development problems. It
 * Defining an architecture that centres around configuration i.e Configuration over Convention
 * Each code vertical will be separated. For example, styles will be separate from view, despite the usage of React. 
 
-## Want to checkout Arivaa? Try it out [here](overview/buy-and-try-out-arivaa-apps)
+|  Header 1| Header 2 |
+|--|--|
+| Row 1 |  Row 2|
+| Row 1 |  Row 2|
+| Row 1 |  Row 2|
+| Row 1 |  Row 2|
 
+    function(){
+    console.log("Hello")
+    }
+
+## Want to checkout Arivaa? Try it out [here](overview/buy-and-try-out-arivaa-apps)
