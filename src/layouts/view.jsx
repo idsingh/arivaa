@@ -10,13 +10,14 @@ const {Content} = Layout
  * @returns {XML}
  */
 var view = function () {
-    const {children, data} = this.props
+    const {children, data} = this.props;
+
     return (
         <div>
             <Layout>
                 <Header/>
                 <Layout>
-                    <Sider/>
+                    <Sider data = {this.getSidebar()}/>
                     <Layout>
                         <Content>
                             <div className="main-container">

@@ -8,5 +8,17 @@ export const query = graphql`
         title
       }
     }
+    
+  allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          frontmatter {
+            date
+            path
+            title
+          } 
+        }
+      }
+    }
   }
 `;

@@ -1,0 +1,87 @@
+import React from 'react'
+import './styles.less'
+import { Layout, Menu } from 'antd'
+
+const {SubMenu} = Menu
+const {Sider} = Layout
+const MenuItemGroup = Menu.ItemGroup
+/**
+ * Returns the JSX Markup for the view
+ * @returns {XML}
+ */
+var view = function () {
+    const {children, data} = this.props;
+    console.log(data)
+    return (
+        <Sider width={300} style={{background: '#fff'}} className={'sider'}>
+            <Menu defaultSelectedKeys={['welcome']} defaultOpenKeys={['sub1']} mode="inline">
+                <MenuItemGroup key="getting-started" title="Getting Started">
+                    <Menu.Item key="welcome">Welcome</Menu.Item>
+                    <Menu.Item key="demo">Running the Demo</Menu.Item>
+                    <Menu.Item key="setting-up">Setting up the Project</Menu.Item>
+                </MenuItemGroup>
+                <MenuItemGroup key="overview" title="Overview">
+                    <Menu.Item key="arivaa">What is Arivaa?</Menu.Item>
+                    <Menu.Item key="arivaa-basic">What is Arivaa Basic?</Menu.Item>
+                    <Menu.Item key="built-with-firebase">Arivaa Basic with Firebase</Menu.Item>
+                    <Menu.Item key="try">Try out Arivaa</Menu.Item>
+                    <Menu.Item key="tech">Technologies</Menu.Item>
+                    <Menu.Item key="logs">Changelog</Menu.Item>
+                    <Menu.Item key="updates">Future Updates</Menu.Item>
+                    <Menu.Item key="support">Support and Contact</Menu.Item>
+                </MenuItemGroup>
+                <MenuItemGroup key="architecture" title="Architecture">
+                    <Menu.Item key="structure">Project Structure and Organization</Menu.Item>
+                    <Menu.Item key="components">Component and Container Structure</Menu.Item>
+                    <Menu.Item key="redux">Redux</Menu.Item>
+                    <Menu.Item key="localization">Localization</Menu.Item>
+                    <Menu.Item key="firebase-implementation">Firebase implementation</Menu.Item>
+                </MenuItemGroup>
+                <MenuItemGroup key="cutomize" title="Customize">
+                    <Menu.Item key="push-notifications">Push Notifications</Menu.Item>
+                    <Menu.Item key="facebook-ads">Facebook Ads</Menu.Item>
+                    <Menu.Item key="admob">Admob</Menu.Item>
+                    <Menu.Item key="analytics">Analytics</Menu.Item>
+                    <Menu.Item key="social-authentication">Social Authentication</Menu.Item>
+                </MenuItemGroup>
+                <SubMenu key="ui-elements" title={<span className="sub-menu-title">UI Elements</span>}>
+                    <MenuItemGroup key="data-display" title="Data Display">
+                        <Menu.Item key="accordion">Accordion</Menu.Item>
+                        <Menu.Item key="badge">Badge</Menu.Item>
+                        <Menu.Item key="card">Card</Menu.Item>
+                        <Menu.Item key="carousel">Carousel</Menu.Item>
+                        <Menu.Item key="footer">Footer</Menu.Item>
+                        <Menu.Item key="header">Header</Menu.Item>
+                        <Menu.Item key="icon">Icon</Menu.Item>
+                        <Menu.Item key="images">Image</Menu.Item>
+                        <Menu.Item key="progress">Progress</Menu.Item>
+                        <Menu.Item key="range">Range</Menu.Item>
+                        <Menu.Item key="thumbnail">Thumbnail</Menu.Item>
+                    </MenuItemGroup>
+                    <MenuItemGroup key="data-input" title="Data Input">
+                        <Menu.Item key="country-code-picker">Country Code Picker</Menu.Item>
+                        <Menu.Item key="date-time">Date Time</Menu.Item>
+                        <Menu.Item key="form">Form</Menu.Item>
+                        <Menu.Item key="image-picker">Image Picker</Menu.Item>
+                        <Menu.Item key="input">Input</Menu.Item>
+                        <Menu.Item key="select">Select</Menu.Item>
+                        <Menu.Item key="social-sign-in">Social Sign In</Menu.Item>
+                        <Menu.Item key="tags">Tags</Menu.Item>
+                    </MenuItemGroup>
+                    <MenuItemGroup key="feedback" title="Feedback">
+                        <Menu.Item key="action-sheet">Action Sheet</Menu.Item>
+                        <Menu.Item key="button">Button</Menu.Item>
+                        <Menu.Item key="modal">Modal</Menu.Item>
+                        <Menu.Item key="prompt">Prompt</Menu.Item>
+                        <Menu.Item key="toast">Toast</Menu.Item>
+                    </MenuItemGroup>
+                    <MenuItemGroup key="navigation" title="Navigation">
+                        <Menu.Item key="link">Link</Menu.Item>
+                        <Menu.Item key="tabs">Tabs</Menu.Item>
+                    </MenuItemGroup>
+                </SubMenu>
+            </Menu>
+        </Sider>
+    )
+}
+export default view

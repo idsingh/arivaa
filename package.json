@@ -9,16 +9,17 @@
     "gatsby-plugin-antd": "^1.0.12",
     "gatsby-plugin-less": "^1.1.8",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0",
     "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44"
+    "gatsby-transformer-remark": "^1.7.44",
+    "prismjs": "^1.15.0",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
-    "start" : "cp -r documentation/assets public/ && npm run develop",
+    "start": "cp -r documentation/assets public/ && npm run develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",

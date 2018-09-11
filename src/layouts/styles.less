@@ -1,10 +1,28 @@
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
+  color: #314659;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-family: Roboto-Light, sans-serif !important;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
@@ -199,16 +217,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  color: #314659;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
-}
+
 
 img {
   max-width: 100%;
@@ -489,8 +498,10 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 .main-container{
   padding: 15px 170px 144px 64px;
   color: #314659;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
+  font-weight: 400;
+  text-align: justify;
   p{
     margin-bottom: 40px;
   }
