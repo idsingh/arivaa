@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ComponentView  from './view';
+import './styles.less';
 /**
  * @description Page
  * @type Page
@@ -26,7 +26,21 @@ export default class Main extends Component {
    * @returns {*}
    */
   render() {
-    return (ComponentView.bind(this))();
+      const {markdownRemark} = this.props.data || {};
+      if(!markdownRemark){
+          return null;
+      }
+      const { frontmatter, html } = markdownRemark;
+      return (
+          <div className="blog-post-container">
+            <div className="blog-post">
+              <div
+                  className="blog-post-content"
+                  dangerouslySetInnerHTML={{ __html: html }}
+              />
+            </div>
+          </div>
+      );
   }
 }
 
