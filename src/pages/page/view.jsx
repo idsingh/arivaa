@@ -6,8 +6,8 @@ import Link from 'gatsby-link'
  * @returns {XML}
  */
 var view = function(){
-	console.log(this.props)
-    const {markdownRemark} = this.props.data;
+
+    const {markdownRemark} = this.props.data || {};
     if(!markdownRemark){
         return null;
     }
