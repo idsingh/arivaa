@@ -29,7 +29,7 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel="stylesheet" type="text/css" href="prism.css"/>
+          <link rel="stylesheet" type="text/css" href="/static/prism.css"/>
           {this.props.headComponents}
           {css}
         </head>
@@ -41,7 +41,7 @@ module.exports = class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script src="prism.js"/>
+          <script src="/static/prism.js"/>
         </body>
       </html>
     )
