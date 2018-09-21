@@ -22,7 +22,7 @@
     "copy-assets" : "rm -r -f public/assets && mkdir public/assets && cp -r assets/* public/assets && cp -r documentation/assets/* public/assets",
     "copy-static" : "rm -r -f public/static && mkdir public/static && cp -r static/* public/static",
     "start": "npm run copy-assets && npm run copy-static && npm run develop",
-    "build": "gatsby build",
+    "build": "npm run copy-assets && npm run copy-static && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
