@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.less'
 import Link from 'gatsby-link'
 import { Layout, Menu, Dropdown, Button } from 'antd'
-import logo from '../../../public/assets/logo.png'
+import logo from '../../assets/logo.png'
 
 const {Header} = Layout
 const menu = (
