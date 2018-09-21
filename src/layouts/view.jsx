@@ -1,5 +1,6 @@
 import React from 'react'
-import './styles.less'
+import './styles.less';
+
 import { Layout } from 'antd'
 import Header from '../components/header'
 import Sider from '../components/sider'
