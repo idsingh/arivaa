@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './styles.less';
+import '../../static/prism.js'
+import '../../static/prism.css';
 /**
  * @description Page
  * @type Page
@@ -19,7 +21,7 @@ export default class Main extends Component {
    * ComponentDidMount Hook
    */
   componentDidMount(){
-      window.Prism.highlightAll()
+     window.Prism.highlightAll()
   }
   /**
    * Render Method

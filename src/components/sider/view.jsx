@@ -11,7 +11,7 @@ const MenuItemGroup = Menu.ItemGroup
  */
 var view = function () {
     const {children, data} = this.props;
-    console.log(data)
+
     return (
         <Sider width={300} style={{background: '#fff'}} className={'sider'}>
             <Menu defaultSelectedKeys={['welcome']} defaultOpenKeys={['sub1']} mode="inline">
